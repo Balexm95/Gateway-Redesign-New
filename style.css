@@ -1,0 +1,336 @@
+  * {
+
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Poppins, sans-serif;
+
+}
+#mainheader  {
+  margin:auto;
+  
+}
+.wrapper {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://cdn.brandfolder.io/CBWQP80B/as/q4xpgq-ajpd80-bqjujz/3840x2160-jumbrotron-seattle.png");
+  height: 140vh;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+}
+
+.about-wrapper {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://www.portseattle.org/sites/default/files/styles/detailpageimagesize/public/2017-12/Port_History_0.JPG?itok=q_pKo2Pi");
+  height: 160vh;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+}
+.contact-wrapper {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://media.istockphoto.com/photos/abstract-cube-backgrounds-loopable-elements-4k-resolution-picture-id1174989472?b=1&k=20&m=1174989472&s=170667a&w=0&h=KIesUgRSO9KXeVNAZwBoTcod_1AtlJOu9KfvDpkBcB0=");
+  height: 180vh;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+}
+.ttd-wrapper {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://c.neh.tw/thumb/f/720/4568883683917824.jpg");
+  height: 420vh;
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center center;
+  position: relative;
+}
+nav {
+  padding:20px;
+}
+.logo {
+  padding:5px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.logo:hover {
+  background:darkcyan;
+  border-radius: 15px;
+  padding: 3px;
+  margin-bottom: 25px;
+  margin-top: 5px;
+
+}
+
+.nav-links {
+  display: flex;
+  float: right;
+  list-style: none;
+  justify-content: space-around;
+  padding: 30px;
+
+}
+.nav-link {
+  color:#fff;
+  text-decoration: none;
+  padding:10px 30px;
+  font-size:20px;
+  border: 1px solid #fff;
+  padding: 10px 50px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right:20px;
+
+}
+.nav-link:hover {
+  background: darkcyan;
+  color:aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+
+}
+
+.intro-text {
+  position: absolute;
+  width:600px;
+  height:300px;
+  margin: 10% 30%;
+  text-align: center;
+
+}
+.intro-text h1 {
+  text-align: center;
+  color:#fff;
+  font-size:80px;
+}
+.intro-text p {
+  text-align: center;
+  color:#fff;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom:20px;
+  
+}
+.about-intro-text {
+  position: absolute;
+  width:1200px;
+  height:30px;
+  margin: 0% 10%;
+  text-align: left;
+  color:#fff;
+}
+.about-intro-text h1 {
+  text-align: center;
+  margin-bottom:30px;
+  font-size: 50px;
+}
+
+.select {
+  text-decoration: none;
+  color:#fff;
+  background-color: transparent;
+  font-size:20px;
+  border: 1px solid #fff;
+  padding: 15px 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+.select:hover {
+  background: darkcyan;
+  color:aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+.TTDselect{
+  color:#fff;
+  background-color: transparent;
+  text-decoration: none;
+  padding:10px 30px;
+  font-size:20px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+.TTDselect:hover {
+  background: darkcyan;
+  color:aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+.theader {
+font-size:20px;
+color:#fff;
+text-align:left;
+padding:20px;
+}
+
+.TTD-table {
+  position: absolute;
+  padding: 25px;
+  font-size:15px;
+  color:#fff;
+  height:50%;
+  margin:25px;
+  align-content: center;
+
+}
+.ttd-paragraph {
+  display: inline-block;
+  position: relative;
+  margin-top: 90px;
+  margin-left:15px;
+  color:#fff;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding:15px;
+
+}
+  
+input[type=text],input[type=number] select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+
+}
+input[type=number] {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical ;
+}
+
+.contact-select {
+  color:#fff;
+  background-color: transparent;
+  text-decoration: none;
+  padding:10px 30px;
+  font-size:20px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+.contact-select:hover {
+  background: darkcyan;
+  color:aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.about-paragraph-title {
+  margin-bottom: 15px;
+  font-size:25px;
+  background-color:darkcyan;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  
+}
+.about-paragraph {
+  margin-bottom: 35px;
+  font-size:20px;
+}
+  td h2 {
+  margin-bottom: 15px;
+  font-size:25px;
+  background-color:darkcyan;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+form {
+  position: absolute;
+  width:500px;
+  height:910px;
+  margin: 5% 40%;
+  text-align: left;
+  font-size:20px;
+  color:white;
+  color:#fff;
+  background-color: transparent;
+  padding:10px 30px;
+  font-size:22px;
+  border: 1px solid #fff;
+  padding: 25px 30px;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 800px;
+  margin-right:30px;
+
+}
+
+#mainfooter {
+display:flex;
+width:100%;
+align-items:center;
+font-size:20px;
+position:absolute;
+bottom:0;
+left:50%;
+justify-content:space-around;
+transform:translate(-50%,-50%);
+z-index:1;
+margin:auto;
+color:#fff;
+font-size: 15px;
+}
+
+.fa {
+  font-size:30px;
+  width:50px;
+  text-align:center;
+  text-decoration:none;
+  padding: 15px;
+
+}
+
+.fa-facebook {
+color:#FFF;
+background: blue;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.fa-twitter {
+color:#FFF;
+background: lightskyblue;
+}
